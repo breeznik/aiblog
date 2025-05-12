@@ -1,0 +1,40 @@
+/* 
+BEM Naming Convention:
+- Block: Represents a standalone entity or component (e.g., `.button`, `.header`).
+- Element: Represents a part of the block, an essential child (e.g., `.button__icon`, `.header__title`).
+- Modifier: Represents a variation or state of the block or element (e.g., `.button--primary`, `.header--large`).
+
+Naming Structure:
+- Block: `.block`
+- Element: `.block__element`
+- Modifier: `.block--modifier`, `.block__element--modifier`
+
+Example usage:
+- Block: .button
+- Element: .button__icon
+- Modifier: .button--primary, .button__icon--disabled
+
+ Block: .button 
+.button {
+  background-color: blue;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+}
+
+Element: .button__icon
+.button__icon {
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+}
+
+/* Modifier: .button--primary */
+.button--primary {
+  background-color: green;
+}
+
+/* Modifier: .button__icon--disabled */
+.button__icon--disabled {
+  opacity: 0.5;
+}

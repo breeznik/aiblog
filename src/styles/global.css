@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@import "./fonts.css";
+
+:root {
+  font-family: "Inter";
+}
+
+@theme {
+  /* fonts */
+  --font-kumbh: "Kumbh";
+
+  /* yellow shades*/
+  --color-cs-yellow-50: #fbfbfe;
+  --color-cs-yellow-100: #fffcf0;
+  --color-cs-yellow-200: #fffae5;
+  --color-cs-yellow-300: #fff5cc;
+  --color-cs-yellow-400: #ffeb99;
+  --color-cs-yellow-500: #ffe066;
+  --color-cs-yellow-600: #ffd633;
+  --color-cs-yellow-700: #ffd11a;
+
+  /* dark gray shades */
+  --color-cs-dark-50: #666666;
+  --color-cs-dark-100: #595959;
+  --color-cs-dark-200: #4d4d4d;
+  --color-cs-dark-300: #404040;
+  --color-cs-dark-400: #333333;
+  --color-cs-dark-500: #262626;
+  --color-cs-dark-600: #1a1a1a;
+  --color-cs-dark-700: #141414;
+
+  /* light gray shades */
+  --color-cs-light50: #fcfcfd;
+  --color-cs-light100: #f7f7f8;
+  --color-cs-light200: #f1f1f3;
+  --color-cs-light300: #e4e4e7;
+  --color-cs-light400: #cccccc;
+  --color-cs-light500: #b3b3b3;
+  --color-cs-light600: #98989a;
+  --color-cs-light700: #7e7e81;
+}
