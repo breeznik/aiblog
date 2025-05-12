@@ -38,4 +38,10 @@
   --color-cs-light500: #b3b3b3;
   --color-cs-light600: #98989a;
   --color-cs-light700: #7e7e81;
+
+  /* breakpoints */
+  /* --breakpoint-*: initial; */
+  --breakpoint-cs-sm: 391px;
+  --breakpoint-cs-xl: 1440px;
+  --breakpoint-cs-2xl: 1920px;
 }
