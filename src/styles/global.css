@@ -3,6 +3,7 @@
 
 :root {
   font-family: "Inter";
+  color: white;
 }
 
 @theme {
@@ -30,14 +31,14 @@
   --color-cs-dark-700: #141414;
 
   /* light gray shades */
-  --color-cs-light50: #fcfcfd;
-  --color-cs-light100: #f7f7f8;
-  --color-cs-light200: #f1f1f3;
-  --color-cs-light300: #e4e4e7;
-  --color-cs-light400: #cccccc;
-  --color-cs-light500: #b3b3b3;
-  --color-cs-light600: #98989a;
-  --color-cs-light700: #7e7e81;
+  --color-cs-light-50: #fcfcfd;
+  --color-cs-light-100: #f7f7f8;
+  --color-cs-light-200: #f1f1f3;
+  --color-cs-light-300: #e4e4e7;
+  --color-cs-light-400: #cccccc;
+  --color-cs-light-500: #b3b3b3;
+  --color-cs-light-600: #98989a;
+  --color-cs-light-700: #7e7e81;
 
   /* breakpoints */
   /* --breakpoint-*: initial; */

@@ -1,1 +1,1 @@
-export const container = "@container px-4 py-5 cs-sm:px-8 cs-xl:px-20 cs-2xl:px-40"
+export const container = "@container px-4 cs-sm:px-8 cs-xl:px-20 cs-2xl:px-40"
